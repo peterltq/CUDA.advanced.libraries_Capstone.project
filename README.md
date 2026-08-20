@@ -73,7 +73,8 @@ $ ./run.sh
 rm -rf bin/*; rm -f data/*_processed.*
 # mkdir -p bin
 g++ -std=c++17  -I/usr/local/cuda/include -Iinclude -I/usr/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/include/opencv4/opencv -I/usr/include/opencv4 src/ImageConvolution.cpp -o bin/ImageConvolution.exe -L/usr/local/cuda/lib64 -lcudart -lnppc -lnppial -lnppicc -lnppidei -lnppif -lnppig -lnppim -lnppist -lnppisu -lnppitc -lcuda -lcudnn -lopencv_core -lopencv_imgcodecs
-bin/ImageConvolution.exe data/sloth_backup.png
+
+$ bin/ImageConvolution.exe data/sloth_backup.png
 Loading input image file:data/sloth.png
 Input image: 1666x1250 with 3 channels
 Output dimensions: 1250x1666 with 3 channels
@@ -81,8 +82,14 @@ Selected algorithm: 1
 Workspace needed: 0 bytes
 Convolution completed!
 Output image saved to: data/sloth_processed.png
+
+$ bin/ImageConvolution.exe --input data/scene-Iron-Man.png
+Loading input image file:data/scene-Iron-Man.png
+Input image: 1600x1067 with 3 channels
+Output dimensions: 1067x1600 with 3 channels
+Selected algorithm: 1
+Workspace needed: 0 bytes
+Convolution completed!
+Output image saved to: data/scene-Iron-Man_processed.png
 ```
-
-
-
 
