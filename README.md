@@ -5,6 +5,16 @@ This is an image processing program to run a 2D convolution conversion on an ima
 More specifically, the convolution kernel/filters this program uses is the sober filter (edge detection). This programs allows user to specify an image file as input, do convolution progressing and output the output image with edge enhanced information into a new files.
 As example, an input and output files are provided, and an video demo is attached with this project in the submission. 
 
+
+### What is a 2D Convolution?
+A 2D convolution is a mathematical operation where a small matrix (called a kernel or filter) slides over an input matrix (such as an image) to extract features. The operation consists of:
+
+* Placing the kernel at a position on the input matrix.
+* Multiplying the corresponding elements of the kernel and the input.
+Summing up the products to compute the output pixel value.
+Sliding the kernel to the next position and repeating.
+This process results in a transformed output matrix, capturing patterns like edges, textures, and shapes.
+
 More background on 2D convolution:
 
 https://medium.com/@ml_dl_explained/understanding-2d-convolutions-in-pytorch-b35841149f5f
