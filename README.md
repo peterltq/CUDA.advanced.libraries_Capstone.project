@@ -11,11 +11,11 @@ A 2D convolution is a mathematical operation where a small matrix (called a kern
 
 * Placing the kernel at a position on the input matrix.
 * Multiplying the corresponding elements of the kernel and the input.
-Summing up the products to compute the output pixel value.
-Sliding the kernel to the next position and repeating.
-This process results in a transformed output matrix, capturing patterns like edges, textures, and shapes.
+* Summing up the products to compute the output pixel value.
+* Sliding the kernel to the next position and repeating.
+* This process results in a transformed output matrix, capturing patterns like edges, textures, and shapes.
 
-More background on 2D convolution:
+### More background on 2D convolution:
 
 https://medium.com/@ml_dl_explained/understanding-2d-convolutions-in-pytorch-b35841149f5f
 
