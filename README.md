@@ -1,4 +1,4 @@
-# Example README.md file for Coursera Projects
+# Capstone Project in CUDA advanced libraries
 
 ## Overview
 This is an image processing program to run a 2D convolution conversion on an image. It utilizes the cuDNN (CUDA Deep Neural Network) libraries which enhance the efficiency by using CUDA and its parallel processing of GPUs.
