@@ -6,11 +6,14 @@ More specifically, the convolution kernel/filters this program uses is the sober
 As example, an input and output files are provided, and an video demo is attached with this project in the submission. 
 
 More background on 2D convolution:
+
 https://medium.com/@ml_dl_explained/understanding-2d-convolutions-in-pytorch-b35841149f5f
+
 https://www.youtube.com/watch?v=pmyulQwV62k&t=3s
 
 
 Sobel Filter:
+
 https://en.wikipedia.org/wiki/Sobel_operator
 
 ## Code Organization
